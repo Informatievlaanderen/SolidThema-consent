@@ -12,6 +12,7 @@
       <https://w3id.org/dpv/dpv-owl#Processing> ;
     <http://www.w3.org/2004/02/skos/core#notation> "Read"@en ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Read"@en ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Read data"@en ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
 
@@ -20,6 +21,7 @@
       <https://w3id.org/dpv/dpv-owl#Processing> ;
     <http://www.w3.org/2004/02/skos/core#notation> "Write"@en ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Write"@en ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Modify/rewrite data"@en ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
 
@@ -28,5 +30,6 @@
       <https://w3id.org/dpv/dpv-owl#Processing> ;
     <http://www.w3.org/2004/02/skos/core#notation> "Append"@en ;
     <http://www.w3.org/2004/02/skos/core#prefLabel> "Append"@en ;
+    <http://www.w3.org/2004/02/skos/core#definition> "Add data only"@en ;
     <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
     <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
