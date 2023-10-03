@@ -1,0 +1,32 @@
+<https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType>
+    a <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+    <http://purl.org/dc/terms/modified> "2023-10-01" ;
+    <http://www.w3.org/2004/02/skos/core#definition> "The allowed processing on the personal data."@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Processing type"@en ;
+    <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://solid.data.vlaanderen.be/id/concept/ProcessingType/Read> ,
+    <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://solid.data.vlaanderen.be/id/concept/ProcessingType/Write> ,
+    <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://solid.data.vlaanderen.be/id/concept/ProcessingType/Append> .
+
+<https://solid.data.vlaanderen.be/id/concept/ProcessingType/Read>
+    a <http://www.w3.org/2004/02/skos/core#Concept> ,
+      <https://w3id.org/dpv/dpv-owl#Processing> ;
+    <http://www.w3.org/2004/02/skos/core#notation> "Read"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Read"@en ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
+
+<https://solid.data.vlaanderen.be/id/concept/ProcessingType/Write>
+    a <http://www.w3.org/2004/02/skos/core#Concept> ,
+      <https://w3id.org/dpv/dpv-owl#Processing> ;
+    <http://www.w3.org/2004/02/skos/core#notation> "Write"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Write"@en ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
+
+<https://solid.data.vlaanderen.be/id/concept/ProcessingType/Append>
+    a <http://www.w3.org/2004/02/skos/core#Concept> ,
+      <https://w3id.org/dpv/dpv-owl#Processing> ;
+    <http://www.w3.org/2004/02/skos/core#notation> "Append"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Append"@en ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> ;
+    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://solid.data.vlaanderen.be/id/conceptscheme/ProcessingType> .
